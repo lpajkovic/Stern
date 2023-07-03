@@ -1,9 +1,7 @@
-# Stern
-Web aplikacija napravljena po uzoru na Stern news portal kao projektni zadatak za predmet Programiranje Web aplikacija na TVZ-u, 2023.
-
 # Postavljanje
 
 Potrebno je lokalno pokrenuti XAMPP, importati bazu na phpmyadmin te eventualno u connect.php promijeniti port spajanja na bazu.
+
 
 # Korištenje
 
