@@ -1,0 +1,9 @@
+- u connect.php je spajanje na bazu, port je postavljen na 3307 pa eventualno to treba promijenit na port koji koristiš
+
+- na stranici administracija, login podaci za admina su 
+	username: admin
+	pass: admin
+
+- da se reseta session treba se odlogirati na stranici Administracija (logout)
+
+- kod dodavanja vijesti, između odlomaka treba ići <br><br> jer iz nekog razloga phpmyadmin ne registrira razmak kako treba

@@ -1,0 +1,293 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+
+}
+
+header {
+
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.imglogo {
+    width: 10%;
+    margin-right: 5px;
+}
+
+.imglogo img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.logo{
+    
+    width:30%;
+}
+
+.logo img{
+    width:100%;
+    height:100%;
+    display:block;
+}
+
+.navTitle {
+    display: flex;
+    width: 85%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+}
+
+
+nav ul {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+nav li {
+    float: left;
+    margin-right: 2%;
+
+}
+
+nav a {
+    color: black;
+    font-weight: bold;
+    font-size:2.5vh;
+}
+
+
+main {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+main section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+section h2{
+    display:flex;
+    flex-direction: column;
+}
+
+
+.articleWrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+
+.articleWrap article {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+h3 span {
+    max-width: 100%;
+}
+
+
+
+.miniTitle a {
+    font-size: 1.5vh;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+
+.bigTitle {
+    font-size: 2.7vh;
+    margin-top: 5px;
+}
+
+
+
+footer {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:1.9vh;
+}
+
+
+/*vijesti*/
+
+h2,
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.selected{
+    color:red;
+}
+
+.newsImg {
+    width: 100%;
+}
+
+.newsImg img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.newsTitleWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.newsTitleWrapper h2 {
+    width: 80%;
+    margin-top: 0;
+    font-weight: bolder;
+}
+
+.newsTitleWrapper span {
+    font-size: smaller;
+    opacity: 40%;
+}
+
+.articleSubtitle {
+    margin-top: 0;
+    font-weight: normal;
+}
+
+.vijest p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity:80%;
+}
+
+
+/*unos*/
+
+form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-item {
+    align-self:center;
+    margin-bottom:10px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    width:60%;
+    justify-content: space-between;
+}
+
+.form-item-buttons {
+    align-self:center;
+    margin-bottom:10px;
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    width:30%;
+    justify-content: space-evenly;
+}
+
+
+.form-field input{
+    align-self: center;
+}
+
+#buttonWrap{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/*administracija*/
+
+.adminForm{
+    margin-bottom:50px;
+}
+
+.adminForm div{
+    margin-bottom:10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.adminForm img{
+    display:block;
+    margin-top:5px;
+}
+
+.adminForm button{
+    margin-top:3px;
+}
+
+/*registracija*/
+
+#forma{
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#forma div{
+    margin-top:5px;
+}
+
+.warning{
+    text-align: center;
+}
+
+/*admin forma*/
+
+#forma2{
+    display: flex;
+}
